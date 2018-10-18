@@ -48,4 +48,16 @@ watch *(long*) <the value of $sp>`
 `rc`
 
 
+## using rr
 
+we could use record-replay tool to record exec
+
+* run the program until it crashes
+` while rr <my-program>; do echo OK; done`
+
+* Replay 
+`
+rr replay <my-program>
+continue
+`
+* Then use the previous step
