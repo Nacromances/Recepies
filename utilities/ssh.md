@@ -5,6 +5,6 @@
 * create a mount dir 
 `sudo mkdir /mnt/mysys`
 * mount using sshfs
-`sudo sshfs -o allow_other,defer_premission xxx@yyy`
+`sudo sshfs -o allow_other,defer_premission xxx@yyy` /mnt/mysys
 
 
