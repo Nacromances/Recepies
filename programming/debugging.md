@@ -61,3 +61,8 @@ rr replay <my-program>
 continue
 `
 * Then use the previous step
+
+## valgrind profiling
+
+*  full profiling with callgrind
+` valgrind --tool=callgrind --dump-instr=yes --collect-jumps=yes --cache-sim=yes --branch-sim=yes --collect-systime=yes <prog + args>`
