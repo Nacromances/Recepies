@@ -11,7 +11,7 @@ let's presume it is */dev/dbh*
 `sudo umount /dev/dbh`
 
 * flash it
-`sudo dd -if=my.iso -of=/dev/dbh bs=4M`
+`sudo dd if=my.iso of=/dev/dbh bs=4M`
 
 * it is done
 
