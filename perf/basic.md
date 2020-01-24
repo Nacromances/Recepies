@@ -12,4 +12,6 @@
 
 * sar : system activity report 
 * perf : performance analysis tool
+* dstat : various stats like cpu,disk,net,paging,system
+* ss    : socket stats
 
