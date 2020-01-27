@@ -14,4 +14,5 @@
 * perf : performance analysis tool
 * dstat : various stats like cpu,disk,net,paging,system
 * ss    : socket stats
+* pcm.x : For intel cpu processor counter monitor tools.
 
