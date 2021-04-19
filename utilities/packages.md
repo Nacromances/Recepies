@@ -7,12 +7,14 @@
 
 
 * search package providing file not installed yet
-`sudo apt install apt-file
- apt-file update
- apt-file search <file pattern>`
+`sudo apt install apt-file`
+`apt-file update`
+`apt-file search <file pattern>`
 
 * list installed packages
 `dpkg -l`
 
 ## Redhat based
 
+* search package providing file not installed yet
+`yum whatprovides <file-name>`
